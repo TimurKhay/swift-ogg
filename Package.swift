@@ -12,12 +12,12 @@ let package = Package(
     dependencies: [
         .package(
             name: "YbridOpus",
-            url: "https://github.com/vector-im/opus-swift",
-            from: "0.8.4"),
+            url: "https://github.com/TimurKhay/opus-swift",
+            .branch("master")),
         .package(
             name: "YbridOgg",
-            url: "https://github.com/vector-im/ogg-swift.git",
-            from: "0.8.3")
+            url: "https://github.com/TimurKhay/ogg-swift.git",
+            .branch("master"))
     ],
     targets: [
         // To debug with a local framework
