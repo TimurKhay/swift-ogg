@@ -3,9 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftOGG",
-    platforms: [
-        .iOS(.v10), .macOS(.v10_15),
-    ],
+//    platforms: [
+//        .iOS(.v10), .macOS(.v10_15), .ma
+//    ],
     products: [
         .library(name: "SwiftOGG", targets: ["SwiftOGG"]),
     ],
